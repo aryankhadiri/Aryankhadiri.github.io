@@ -8,6 +8,7 @@ function sendEmail(){
 	var $subject = document.getElementById("subject").value;
 	var $body = document.getElementById("message").value;
 	window.location.assign('mailto:Aryankhadiri@gmail.com?subject='+$subject+'&body='+$body);
+
 }
 (function($) {
 
