@@ -27,10 +27,6 @@
     width: 45%;
     margin-left: 3.5%;
 }
-.third_image img{
-    width: 60%;
-    margin-left:20%;
-}
 
 
 html, body, div, span, applet, object,
@@ -2660,8 +2656,8 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
-			width: 100%;
+			margin: 4rem 10%;
+			width: 80%;
 		}
 
 			.image.main:first-child {
