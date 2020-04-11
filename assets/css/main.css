@@ -8,7 +8,7 @@
 */
 .tech_details_featured_post p{
 	display: inline-block;
-	margin: 0 100px 0 100px;
+	margin: 0 2rem 0 2rem;
 	flex: auto;
 	font-family:Consolas,monaco,monospace;
 	font-size: medium;
