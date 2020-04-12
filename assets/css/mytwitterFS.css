@@ -8,7 +8,7 @@
 */
 .tech_details_featured_post p{
 	display: inline-block;
-	margin: 0 2rem 0 2rem;
+	margin: 0 100px 0 100px;
 	flex: auto;
 	font-family:Consolas,monaco,monospace;
 	font-size: medium;
@@ -2645,13 +2645,15 @@ input, select, textarea {
 			}
 
 			.image.fit img {
-				width: 100%;				
+				width: 100%;
 			}
 
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			width: 100%;
+            width: 100%;
+            background-color:black;
+            float:left;
 		}
 
 			.image.main:first-child {
@@ -2659,8 +2661,9 @@ input, select, textarea {
 			}
 
 			.image.main img {
-                width:80%;
-                margin-left:10% 
+                width: 47%;
+                margin-left:2%;
+                float: left;
 			}
 
 		@media screen and (max-width: 736px) {
